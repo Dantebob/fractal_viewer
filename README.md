@@ -2,7 +2,7 @@
 Generates image of Mandelbrot and Julia sets that can be navigated and swapped
 
 # Controls
-'J' = createJulia1
+'J' = createJulia1\n
 'j' = createJulia2
 'M' = createMandelbrot1
 'm' = createMandelbrot2
