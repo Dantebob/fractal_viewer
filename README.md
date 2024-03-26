@@ -2,9 +2,12 @@
 Generates image of Mandelbrot and Julia sets that can be navigated and swapped
 
 # Controls
-'J' = createJulia1\n
+'J' = createJulia1
+
 'j' = createJulia2
+
 'M' = createMandelbrot1
+
 'm' = createMandelbrot2
 'C' = createComplexFractal1
 'c' = createComplexFractal2
