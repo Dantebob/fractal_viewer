@@ -33,11 +33,11 @@ Generates image of Mandelbrot and Julia sets that can be navigated and swapped
 'e' = randomColor3
 
 'R':
-  if getInteractionMode == IM_COLORTABLE
-  then randomColor2
+if getInteractionMode == IM_COLORTABLE
+then randomColor2
   
-  if getInteractionMode == IM_FRACTAL
-  then resetPlane
+if getInteractionMode == IM_FRACTAL
+then resetPlane
   
 'z' = zoomIn
 
