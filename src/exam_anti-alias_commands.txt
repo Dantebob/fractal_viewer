@@ -1,0 +1,28 @@
+# Color
+#
+set-color-table-size 300
+set-color-gradient 0   204 102 0      149 204 204 204
+set-color-gradient 150 204 153 102    299 51 38 26
+
+#
+# Fractal
+#
+mandelbrot
+grid 3000 3000 300
+fractal-plane-size -0.563992 -0.562219 -0.657614 -0.655841
+fractal-calculate
+
+#
+#
+#
+
+grid-apply-color-table
+# write not-alias.ppm
+copyo1
+
+#
+#
+#
+anti-alias 3
+write 002-anti-alias.ppm
+quit
